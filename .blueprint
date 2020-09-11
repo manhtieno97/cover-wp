@@ -1,0 +1,7 @@
+created:
+    - database/factories/Models/CoverFactory.php
+    - database/migrations/2020_09_10_081412_create_covers_table.php
+    - app/Models/Cover.php
+    - database/seeds/CoverSeeder.php
+models:
+    Models\Cover: { avatar: text, file: text, name: 'string unique', category: 'string nullable', timestamps: timestamps, softdeletes: softDeletes }

@@ -1,0 +1,9 @@
+models:
+  Models\Cover:
+    avatar: text
+    file: text
+    name: string unique
+    category: string nullable
+    timestamps: true
+    softDeletes: true
+seeders: Cover
